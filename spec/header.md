@@ -10,7 +10,7 @@ At this time, the **Editor's Draft** contains the initial version of the specifi
 **Specification Version:** v0.1 (see [Changelog](#did-attested-resources-change-log))
 
 **Source of Latest Draft:**
-  [https://github.com/decentralized-identity/did-attested-resources/spec](https://github.com/decentralized-identity/didwebvh/spec)
+  [https://github.com/decentralized-identity/did-attested-resources/spec](https://github.com/decentralized-identity/did-attested-resources/tree/main/spec)
 
 **Previous Versions:**
 - None

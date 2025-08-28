@@ -1,0 +1,26 @@
+{
+  "name": "did-attested-resources",
+  "version": "0.1",
+  "description": "DID Attested Resources",
+  "main": "index.js",
+  "scripts": {
+    "edit": "node -e \"require('spec-up')()\"",
+    "render": "node -e \"require('spec-up')({ nowatch: true })\"",
+    "dev": "node -e \"require('spec-up')({ dev: true })\""
+  },
+  "keywords": [
+    "decentralized identifier",
+    "DID",
+    "spec",
+    "attested resources"
+  ],
+  "author": "Stephen Curran",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/decentralized-identity/did-attested-resources/issues"
+  },
+  "homepage": "https://identity.foundation/did-attested-resources/",
+  "dependencies": {
+    "spec-up": "github:brianorwhatever/spec-up#master"
+  }
+}

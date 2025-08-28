@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "AttestedResource": {
+            "@id": "https://identity.foundation/did-attested-resources/v0.1/#did-attested-resource-specification",
+            "@context": {
+                "@protected": true,
+                "version": {
+                    "@id": "https://identity.foundation/did-attested-resources/v0.1/#term:version"
+                },
+                "content": {
+                    "@id": "https://identity.foundation/did-attested-resources/v0.1/#term:content",
+                    "@type": "@json"
+                },
+                "metadata": {
+                    "@id": "https://identity.foundation/did-attested-resources/v0.1/#term:metadata",
+                    "@type": "@id",
+                    "@context": {
+                        "@protected": true,
+                        "resourceId": "https://w3c-ccg.github.io/did-linked-resources/#resourceid",
+                        "resourceType": "https://w3c-ccg.github.io/did-linked-resources/#resourcetype",
+                        "resourceName": "https://w3c-ccg.github.io/did-linked-resources/#resourcename",
+                        "resourceVersion": "https://w3c-ccg.github.io/did-linked-resources/#resourceversion",
+                        "@vocab": "https://www.w3.org/ns/credentials/undefined-term#undefined-terms"
+                    }
+                },
+                "links": {
+                    "@id": "https://identity.foundation/did-attested-resources/v0.1/#term:links",
+                    "@type": "@id",
+                    "@context": {
+                        "@protected": true,
+                        "id": "@id",
+                        "resourceType": "https://w3c-ccg.github.io/did-linked-resources/#resourcetype",
+                        "timestamp": "https://www.w3.org/TR/xmlschema11-2/#dateTimeStamp",
+                        "digestMultibase": {
+                            "@id": "https://w3id.org/security#digestMultibase",
+                            "@type": "https://w3id.org/security#multibase"
+                        },
+                        "mediaType": {
+                            "@id": "https://schema.org/encodingFormat"
+                        },
+                        "@vocab": "https://www.w3.org/ns/credentials/undefined-term#undefined-terms"
+                    }
+                }
+            }
+        }
+    }
+}

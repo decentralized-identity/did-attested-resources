@@ -1,0 +1,58 @@
+{
+  "specs": [
+    {
+      "title": "DID Attested Resources v0.1 (Editors Draft)",
+      "spec_directory": "./spec",
+      "markdown_paths": [
+        "header.md",
+        "abstract.md",
+        "specification.md",
+        "definitions.md",
+        "references.md",
+        "version.md"
+      ],
+      "source": {
+        "host": "github",
+        "account": "decentralized-identity",
+        "repo": "did-attested-resources"
+      },
+      "output_path": "./v0.1",
+      "katex": true,
+      "external_specs": [
+        {
+          "didwebv": {
+            "href": "https://identity.foundation/didwebvh/",
+            "title": "didwebvh",
+            "rawDate": "2025-05-02  ",
+            "authors": [
+              "Stephen Curran",
+              "John Jordan, BC Gov",
+              "Andrew Whitehead",
+              "Brian Richter",
+              "Michel Sahli",
+              "Martina Kolpondinos",
+              "Dmitri Zagdulin",
+              "Alexander Shenshin"
+            ],
+            "status": "Internet Draft"
+          }
+        },
+        {
+          "didwebvbh-anoncreds": {
+            "href": "https://identity.foundation/didwebvh/anoncreds-method/",
+            "title": "The did:webvh AnonCreds Method",
+            "rawDate": "2025-02-14",
+            "authors": [
+              "Stephen Curran",
+              "John Jordan, BC Gov",
+              "Andrew Whitehead",
+              "Brian Richter",
+              "Patrick St. Louis"
+            ],
+            "status": "Internet Draft"
+          }
+        }
+      ]
+    }
+  ]
+}
